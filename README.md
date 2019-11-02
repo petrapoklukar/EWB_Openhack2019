@@ -15,7 +15,7 @@ We built a mobile app synced with a browser version that leverages existing open
 5. it contains a global forum for sharing information and insights gained from the past projects categorised by the content.
 
 ### Tools used
-In particular, we used [Question2Answer](https://www.question2answer.org/) for maintaining a knowledge sharing community where users can ask or answer questions, and added a [Conversejs](https://conversejs.org/) chat add on.
+In particular, we used [Question2Answer](https://www.question2answer.org/) for maintaining a knowledge sharing community where users can ask or answer questions, and added a [Conversejs](https://conversejs.org/) chat add-on that enables users to get into direct contact with another engineer. Question2Answer Platform enables categorising, commenting and upvoting the comments. 
 
 ### Technical Details
 
@@ -24,7 +24,7 @@ In particular, we used [Question2Answer](https://www.question2answer.org/) for m
 ### Web Demo
 The Web Demo is available on this link: http://40.115.118.1/ewb/
 
-### The Team 
+### Team 
 Made in Stockholm during Openhack 2019 by 
 * Anukriti Banerjee, 
 * Björn Bergstrand, 
