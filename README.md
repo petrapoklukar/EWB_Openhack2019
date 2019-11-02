@@ -15,7 +15,9 @@ We built a mobile app synced with a browser version that leverages existing open
 5. it contains a global forum for sharing information and insights gained from the past projects categorised by the content.
 
 ### Mobile App Demo
-Here you can click around the EWBFlow app: LINK
+Click [here](https://www.figma.com/proto/IWB6k18ao839QL7eOabGoi/EWBFlow?node-id=34%3A67&scaling=scale-down) to see around the EWBFlow app.
+
+![Image of the Mobile version](https://github.com/petrapoklukar/EWB_Openhack2019/blob/master/Mobileversion_Example.png)
 
 ### Web version
 A web version demo is available on the following link: http://ewb.northeurope.cloudapp.azure.com/ewb/. At its core it runs an instance of [Question2Answer](https://www.question2answer.org/) which is an open source Q&A platform. It provides a simple way to maintain a knowledge sharing community where users can ask or answer questions. It enables categorization of questions by content using tags, and separately sorts the unanswered questions. Users can also upload images and videos as well as vote on the comments. 
@@ -23,6 +25,8 @@ A web version demo is available on the following link: http://ewb.northeurope.cl
 We implemented a [Wiki page](https://github.com/NoahY/q2a-wiki) plugin where engineers can upload any kind of teaching material specific to each project.
 
 We also added an instance of [Conversejs](https://conversejs.org/) which is a free and open-source XMPP chat client. This feature enables users to get into direct contact with other engineers.  
+
+![Image of the Web version](https://github.com/petrapoklukar/EWB_Openhack2019/blob/master/Webverison_Example.png)
 
 ### Technical Details
 - The EWBFlow platform is running on a [Microsoft Azure server](https://azure.microsoft.com/en-us/). The estimated cost for EWB to use Azure Virtual MAchine would be ~50$ per month but any other cloud service provider could be used instead. The virtual machine also already includes the database for storing all the user and project information. 
