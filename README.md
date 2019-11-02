@@ -3,7 +3,7 @@ A communication platform for Engineers Without Borders (EWB) Openhack 2019 chall
 
 ## Challenge objective
 A platform for storing and exchanging information between EWB Sweden and their project beneficiaries that would reduce the
-likelihood of abandoned systems that fall into disrepair. See (description file)[https://github.com/petrapoklukar/EWB_Openhack2019/blob/master/EWB_ChallengeDescription_%20Openhack2019.pdf] for details.
+likelihood of abandoned systems that fall into disrepair. For a detailed description, see [ EWB_ChallengeDescription_Openhack2019.pdf](https://github.com/petrapoklukar/EWB_Openhack2019/blob/master/EWB_ChallengeDescription_%20Openhack2019.pdf).
 
 ## Our Solution: EWBFlow
 ### Description
@@ -14,15 +14,18 @@ We built a mobile app synced with a browser version that leverages existing open
 4. it supports chat and video call functionallities, 
 5. it contains a global forum for sharing information and insights gained from the past projects categorised by the content.
 
-### Tools used
-In particular, we used [Question2Answer](https://www.question2answer.org/) for maintaining a knowledge sharing community where users can ask or answer questions, and added a [Conversejs](https://conversejs.org/) chat add-on that enables users to get into direct contact with another engineer. Question2Answer Platform enables categorising, commenting and upvoting the comments. 
+### Mobile App Demo
+Here you can click around the EWBFlow app 
+
+### Web Demo
+A web version demo is available on this link: http://40.115.118.1/ewb/. At its core it runs an instance of [Question2Answer](https://www.question2answer.org/) which is an open source Q&A platform. It provides a simple way to maintain a knowledge sharing community where users can ask or answer questions. It enables categorization of questions by content using tags, and separately sorts the unanswered questions. Users can also upload images and videos as well as vote on the comments. 
+
+We implemented a [Wiki page](https://github.com/NoahY/q2a-wiki) plugin where engineers can upload any kind of teaching material specific to each project.
+
+We also added an instance of [Conversejs](https://conversejs.org/) which is a free and open-source XMPP chat client. This feature enables users to get into direct contact with other engineers.  
 
 ### Technical Details
 
-### Mobile App Demo
-
-### Web Demo
-The Web Demo is available on this link: http://40.115.118.1/ewb/.
 
 ### Team 
 Made in Stockholm during Openhack 2019 by 
