@@ -3,7 +3,7 @@ A communication platform for Engineers Without Borders (EWB) Openhack 2019 chall
 
 ## Challenge objective
 A platform for storing and exchanging information between EWB Sweden and their project beneficiaries that would reduce the
-likelihood of abandoned systems that fall into disrepair.
+likelihood of abandoned systems that fall into disrepair. See (description file)[https://github.com/petrapoklukar/EWB_Openhack2019/blob/master/EWB_ChallengeDescription_%20Openhack2019.pdf] for details.
 
 ## Our Solution: EWBFlow
 ### Description
@@ -22,7 +22,7 @@ In particular, we used [Question2Answer](https://www.question2answer.org/) for m
 ### Mobile App Demo
 
 ### Web Demo
-The Web Demo is available on this link: http://40.115.118.1/ewb/
+The Web Demo is available on this link: http://40.115.118.1/ewb/.
 
 ### Team 
 Made in Stockholm during Openhack 2019 by 
