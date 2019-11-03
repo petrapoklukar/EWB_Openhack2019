@@ -1,5 +1,6 @@
 # EWBFlow
-A communication platform for Engineers Without Borders (EWB) Openhack 2019 challenge.
+## An open source communication platform making knowledge accessible and organised
+The proposed solution for the Engineers Without Borders (EWB) challenge, Openhack 2019.
 
 ## Challenge objective
 A platform for storing and exchanging information between EWB Sweden and their project beneficiaries that would reduce the
@@ -7,7 +8,7 @@ likelihood of abandoned systems that fall into disrepair. For a detailed descrip
 
 ## EWBFlow Platform
 ### Description
-We built a mobile app synced with a browser version that leverages existing open source communication platforms and enables an easy communication between engineers all over the world. Our mobile app, which we named **EWBFlow**, addresses all the requriements of the EWB challenge:
+We built a mobile app synced with a web version that leverages existing open source communication platforms and enables an easy communication between engineers and project beneficiaries all over the world. Our mobile app, which we named **EWBFlow**, addresses all the requriements of the EWB challenge:
 1. it is available both online and offline (see below for details),
 2. it contains a Wiki page, specific to each project, where engineers can upload manuals, maps, sketches or any other kinds of supplementary and teaching material,
 3. it contains a support forum, specific to each project, where enginners can ask and answer questions, upload images and videos,
@@ -33,7 +34,7 @@ A web version demo is available on the following link: http://ewb.northeurope.cl
 - The XMPP chat server is [Prosody IM](https://prosody.im/).
 - The chat client is [Conversejs](https://conversejs.org/) 
 - The q&a forum is [Question2Answer](https://www.question2answer.org/)
-- Syncing on the mobile app happens when the user connects to the internet.
+- The mobile version is a wrapper of the web one and it can be used offline. It syncs with the latest web version when the user connects to the internet.
 
 ### Challenges and how to overcome them
 - *People having troubles to cope with technology (but assuming access to a smartphone)* We would provide an app tutorial showing a new user how to navigate around, potentially in several languages. 
