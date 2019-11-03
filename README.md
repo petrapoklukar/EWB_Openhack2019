@@ -29,10 +29,11 @@ We also added an instance of [Conversejs](https://conversejs.org/) which is a fr
 ![Image of the Web version](https://github.com/petrapoklukar/EWB_Openhack2019/blob/master/Webverison_Example.png)
 
 ### Technical Details
-- The EWBFlow platform is running on a [Microsoft Azure server](https://azure.microsoft.com/en-us/). The estimated cost for EWB to use Azure Virtual MAchine would be ~50$ per month but any other cloud service provider could be used instead. The virtual machine also already includes the database for storing all the user and project information. 
-- The Web server
-- The chat client [Conversejs](https://conversejs.org/) is running on an XMPP server called [Prosody IM](https://prosody.im/).
-- The app
+- The EWBFlow platform is running on a [Microsoft Azure server](https://azure.microsoft.com/en-us/). The estimated cost for EWB to use Azure Virtual MAchine would be ~50$ per month but any other cloud service provider could be used instead. The virtual machine includes the database for storing all the user and project information. 
+- The Web server is Apache2 running on Ubuntu
+- The XMPP chat server is [Prosody IM](https://prosody.im/).
+- The chat client is [Conversejs](https://conversejs.org/) 
+- The q&a forum is [Question2Answer](https://www.question2answer.org/)
 - Syncing happens when the user connects to the internet.
 
 ### Challenges and how to overcome them
