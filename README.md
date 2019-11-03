@@ -15,7 +15,7 @@ We built a mobile app synced with a browser version that leverages existing open
 5. it contains a global forum for sharing information and insights gained from the past projects categorised by the content.
 
 ### Mobile App Demo
-Click [here](https://www.figma.com/proto/IWB6k18ao839QL7eOabGoi/EWBFlow?node-id=34%3A67&scaling=scale-down) to see around the EWBFlow app.
+Click <a href="https://www.figma.com/proto/IWB6k18ao839QL7eOabGoi/EWBFlow?node-id=7%3A0&scaling=scale-down" target="_blank">here</a> to see around the EWBFlow app.
 
 ![Image of the Mobile version](https://github.com/petrapoklukar/EWB_Openhack2019/blob/master/Mobileversion_Example.png)
 
