@@ -20,21 +20,20 @@ Click [here](https://www.figma.com/proto/IWB6k18ao839QL7eOabGoi/EWBFlow?node-id=
 ![Image of the Mobile version](https://github.com/petrapoklukar/EWB_Openhack2019/blob/master/Mobileversion_Example.png)
 
 ### Web version
-A web version demo is available on the following link: http://ewb.northeurope.cloudapp.azure.com/ewb/. At its core it runs an instance of [Question2Answer](https://www.question2answer.org/) which is an open source Q&A platform. It provides a simple way to maintain a knowledge sharing community where users can ask or answer questions. It enables categorization of questions by content using tags, and separately sorts the unanswered questions. Users can also upload images and videos as well as vote on the comments. 
-
-We implemented a [Wiki page](https://github.com/NoahY/q2a-wiki) plugin where engineers can upload any kind of teaching material specific to each project.
-
-We also added an instance of [Conversejs](https://conversejs.org/) which is a free and open-source XMPP chat client. This feature enables users to get into direct contact with other engineers.  
+A web version demo is available on the following link: http://ewb.northeurope.cloudapp.azure.com/ewb/. 
+- At its core it runs an instance of [Question2Answer](https://www.question2answer.org/) which is an open source Q&A platform. It provides a simple way to maintain a knowledge sharing community where users can ask or answer questions. It enables categorization of questions by content using tags, and separately sorts the unanswered questions. Users can also upload images and videos as well as vote on the comments. 
+- We added a Wiki page to the forum where engineers can upload any kind of teaching material specific to each project. 
+- We also implemented an instance of [Conversejs](https://conversejs.org/) which is a free and open-source XMPP chat client. This feature enables users to get into direct contact with other engineers.  
 
 ![Image of the Web version](https://github.com/petrapoklukar/EWB_Openhack2019/blob/master/Webverison_Example.png)
 
 ### Technical Details
 - The EWBFlow platform is an Ubuntu instance running on a [Microsoft Azure server](https://azure.microsoft.com/en-us/). The estimated cost for EWB to use Azure Virtual MAchine would be ~50$ per month but any other cloud service provider could be used instead. The virtual machine includes the database for storing all the user and project information. 
-- The Web server is Apache2
+- The Web server is [Apache2](https://httpd.apache.org/).
 - The XMPP chat server is [Prosody IM](https://prosody.im/).
 - The chat client is [Conversejs](https://conversejs.org/) 
 - The q&a forum is [Question2Answer](https://www.question2answer.org/)
-- Syncing happens when the user connects to the internet.
+- Syncing on the mobile app happens when the user connects to the internet.
 
 ### Challenges and how to overcome them
 - *People having troubles to cope with technology (but assuming access to a smartphone)* We would provide an app tutorial showing a new user how to navigate around, potentially in several languages. 
